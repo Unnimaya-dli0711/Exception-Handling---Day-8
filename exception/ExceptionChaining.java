@@ -17,7 +17,7 @@ public class ExceptionChaining {
                 System.out.println(line);
             }
             reader.close();
-        }catch (IOException e){ 
+        }catch (IOException e){
             throw new  MyException();
         }
     }
